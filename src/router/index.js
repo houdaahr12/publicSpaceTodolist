@@ -4,7 +4,6 @@ import AboutView from '../views/AboutView.vue'
 import ContactView from '../views/ContactView.vue'
 import Login from '@/views/Login.vue';
 import Register from '@/views/Register.vue';
-import Footer from '../components/Footer.vue'
 
 const routes = [
   {

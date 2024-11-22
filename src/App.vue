@@ -5,7 +5,6 @@
     </v-app-bar>
 
     <router-view></router-view>
-
     <v-footer>
       <Footer />
     </v-footer>
@@ -15,12 +14,15 @@
 <script>
 
 import Navbar from './components/Navbar.vue'
+import Features from './components/Features.vue'
+
 import Footer from "./components/Footer.vue";
 
 export default {
   name: 'App',
   components:{
     Navbar,
+    Features,
     Footer
   }
   

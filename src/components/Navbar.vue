@@ -61,7 +61,7 @@ export default {
 <style scoped>
 /* Custom styles for the navbar */
 .navbar{
-    background: hsl(0, 0%, 80%);
+    background: #cccccc;
     transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
 
 }
@@ -80,6 +80,7 @@ export default {
 .nav-link:hover{
     color: hsl(268, 70%, 60%);
     transform: scale(1.1);
+
 
 }
 
@@ -101,6 +102,8 @@ button {
     background-color: hsl(268, 70%, 50%);
     color: black;
     transform: scale(1.1);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Ajoute une ombre au survol */
+
 
 }
 .login{
@@ -110,6 +113,8 @@ button {
       transform: scale(1.1);
       background: hsl(0, 0%, 35%);
       color: white;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Ajoute une ombre au survol */
+
 
 }
 </style>
